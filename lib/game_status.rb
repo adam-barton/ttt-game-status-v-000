@@ -31,7 +31,7 @@ WIN_COMBINATIONS = [
   
   def full?(board)
     board.all? do |space|
-    space != " " || space != ""
+    space == "X" || space == "O"
   end
 end
 
