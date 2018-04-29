@@ -35,6 +35,6 @@ WIN_COMBINATIONS = [
   end
 end
 
-#def draw?(board)
- # board.all? != full?
-#end
+def draw?(board)
+  board != full?
+end
