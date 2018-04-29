@@ -29,11 +29,11 @@ WIN_COMBINATIONS = [
    end
   end
   
-  def full?(board)
-    board.all? do |space|
-    space == "X" || "O"
-  end
-end
+ # def full?(board)
+  #  board.all? do |space|
+   # space == "X" || "O"
+  #end
+#end
 
 #def draw?(board)
  # board.all? != full?
